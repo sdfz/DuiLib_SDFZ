@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>
+	<ListContainerElement  name="list_item" height="40"> 
+		<HorizontalLayout >
+			<Button name="change_station_btn" text="" padding="0,12,5,0" width="15" height="15" textcolor="#FF3287FF" bordercolor="0xFF3287FF" bordersize="1" />
+			<Label name="1993" text="123"/>
+		</HorizontalLayout>
+		<Label name="1994" text="456"/>
+		<Label name="1995" text="789"/>
+		<HorizontalLayout>
+			<Button name="MyEDIT" text="编辑" padding="0,8,5,0" width="40" height="25" textcolor="#FF3287FF" bordercolor="0xFF3287FF" bordersize="1"/>
+			<Button name="MyDelete" text="删除" padding="0,8,5,0" width="40" height="25" textcolor="#FF3287FF" bordercolor="0xFF3287FF" bordersize="1"/>
+		</HorizontalLayout>				
+	</ListContainerElement>
+</Window>

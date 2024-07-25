@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="900,600" caption="2,2,2,50" >
+	<Default name="VScrollBar" width="10" 
+    value="thumbnormalimage=&quot;file=&apos;img/zjhd.png&apos; source=&apos;0,0,16,93&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbpushedimage=&quot;file=&apos;img/zjhdxf.png&apos; source=&apos;0,0,32,93&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; " />
+	
+	<VerticalLayout bkcolor="0xffffffff" bkcolor2="0xffffffff" bordercolor="0xff123456" bordersize="1">
+		<HorizontalLayout height="50">
+			<HorizontalLayout></HorizontalLayout>
+			<Button name="DelChartData" text="━" width="40"/>
+			<Button name="DelChartData" text="□" width="40"/>
+			<Button name="DelChartData" text="✖" width="40"/>
+		</HorizontalLayout>
+		
+		<HorizontalLayout height="50">
+			<Button name="ins" text="插入" width="100"  bkcolor="0x1f3d3d3d" bkcolor2="0x1f3d3d3d"/>
+		</HorizontalLayout>
+
+		<HorizontalLayout height="300">
+			<List name="mylist"  inset="4,0,4,0" itemlinecolor="0xfff0f0f0" vscrollbar="true" hscrollbar="true" sepwidth="4"  >
+				<ListHeader>
+					<ListHeaderItem text="头1" align="left" height="40" bkcolor="0xfff0f0f0" bkcolor2="0xfff0f0f0" sepwidth="4"/>
+					<ListHeaderItem text="头2" align="left" height="40" bkcolor="0xfff0f0f0" bkcolor2="0xfff0f0f0" sepwidth="4"/>
+					<ListHeaderItem text="头3" align="left" height="40" bkcolor="0xfff0f0f0" bkcolor2="0xfff0f0f0"/>
+					<ListHeaderItem text="头4" align="left" height="40" bkcolor="0xfff0f0f0" bkcolor2="0xfff0f0f0"/>
+				</ListHeader>
+				<!-- <Include source="list_empty_bk.xml"/> -->
+			</List>
+		</HorizontalLayout>
+		
+		<HorizontalLayout>
+			<TreeView  width="100" >
+				<TreeNode text="A1" bkcolor="0x1f3d3d3d">
+					<TreeNode text="A1" />
+					<TreeNode text="A2" />
+					<TreeNode text="A3" />
+				</TreeNode>
+				<TreeNode text="B1" bkcolor="0x1f3d3d3d">
+					<TreeNode text="B1" />
+					<TreeNode text="B2" />
+					<TreeNode text="B3" />
+				</TreeNode>
+			</TreeView>
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>
